@@ -1,0 +1,11 @@
+# Python packages for the Milo engine. setup.py installs these into milo/.venv (nothing global).
+# Pinned to the versions the engine was built and tested with (Python 3.12, Windows 10, 2026-11).
+kokoro-onnx==0.6.1        # narrator voice (Kokoro 82M, ONNX; bundles espeak-ng, no system install)
+onnxruntime==1.31.1
+faster-whisper==1.2.1     # word timings for captions
+ctranslate2==4.8.4
+numpy==2.5.4
+pillow==13.0.0            # faces, prints, captions, contact sheets
+soundfile==0.14.0
+av==19.0.2
+yt-dlp==2026.10.26        # optional: reference downloads for the look study

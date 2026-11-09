@@ -1,0 +1,16 @@
+milo/work/
+milo/.venv/
+milo/config.json
+milo/tools/blender-*/
+milo/tools/ffmpeg/
+milo/assets/textures/
+milo/assets/kokoro/
+milo/assets/dl_audio/
+milo/reference/
+outbox/
+inbox/
+my-sounds/
+my-rules.md
+my-style.md
+__pycache__/
+*.blend1
